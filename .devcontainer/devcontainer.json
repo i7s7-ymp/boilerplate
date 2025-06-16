@@ -12,13 +12,13 @@
 			"moby": "true"
 		},
 		"ghcr.io/devcontainers/features/go:1": {}
-	}
+	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "docker --version",
+	"postCreateCommand": "/workspaces/boilerplate/.devcontainer/install.sh"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
