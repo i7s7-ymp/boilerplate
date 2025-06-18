@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "ms-python.debugpy",
+    "ms-azuretools.vscode-docker",
+    "golang.go",
+    "charliermarsh.ruff",
+    "github.vscode-pull-request-github",
+    "github.copilot",
+    "googlecloudtools.cloudcode"
+  ]
+}
